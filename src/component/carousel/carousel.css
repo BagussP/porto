@@ -1,0 +1,49 @@
+.carousel {
+    position: relative;
+    z-index: 1;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px ;
+}
+
+.carousel .carousel-1 .text{
+    position: relative;
+    z-index: 5;
+    font-size: 3em;
+    top: -380px;
+    color: white;
+    line-height: 1.3em;
+}
+
+.carousel .carousel-2 .text{
+    position: relative;
+    z-index: 5;
+    font-size: 2.5em;
+    top: -700px;
+    width: 500px;
+    left: 58%;
+
+}
+
+.carousel .carousel-2 .text h1{
+    text-align: right;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.carousel a {
+    padding: 8px 60px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+.carousel .carousel-1 a {
+   background: rgb(246,126,1);
+   background-image:linear-gradient(to left,rgba(75,19,79,0.8) ,rgba(201,75,75,0.6)); 
+}
+
+.carousel .carousel-2 a {
+    background: rgb(246,126,1);
+    background-image:linear-gradient(to left,rgba(75,19,79,0.8) ,rgba(201,75,75,0.6));
+}

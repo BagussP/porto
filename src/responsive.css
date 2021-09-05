@@ -1,0 +1,32 @@
+@media screen and (min-width:1024px) {
+    .App {
+        display: unset;
+    }
+
+    .App .profile {
+        width: 100%;
+        background-color: unset;
+    }
+
+    .App .main {
+        width: 100%;
+    }
+
+    .sidebar {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .carousel .carousel-1 .text {
+        position: relative;
+        font-size: 2em;
+        top: -270px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #interest .box-parent {
+        display: unset;
+    }
+    
+}

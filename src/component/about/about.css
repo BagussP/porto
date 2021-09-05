@@ -1,0 +1,17 @@
+#about {
+    margin-top: 5em;
+}
+
+#about h1 {
+    font-size: 3em;
+    line-height: 2em;
+    margin-left: 1.2em;
+}
+
+#about p{
+    max-width: 1200px;
+    font-size: 1.8em;
+    margin-left: 2em;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}

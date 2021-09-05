@@ -1,0 +1,43 @@
+.sidebar{
+    position: fixed;
+}
+
+.sidebar .sidebar-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+.sidebar .sidebar-profile img {
+    border-radius: 100%;
+    width: 80px;
+}
+
+.sidebar .sidebar-profile h1 {
+    font-family: 'Chicle', cursive;
+    margin-bottom: -0.5rem;
+}
+
+.sidebar .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 1.9em;
+    line-height: 1.8em;
+
+}
+
+.sidebar .sidebar-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3rem;
+}
+
+.sidebar .sidebar-nav a:hover {
+    text-decoration: underline;
+    color: #f5c425;
+}
+
